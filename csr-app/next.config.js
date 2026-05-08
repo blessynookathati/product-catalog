@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  outputFileTracingRoot: __dirname,
+  images: {
+    domains: ['i.dummyjson.com'],
+  },
 };
 
 module.exports = nextConfig;
